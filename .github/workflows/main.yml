@@ -16,8 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Publish to Registry
-        uses: elgohr/Publish-Docker-Github-Action@master
-# параметры uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v4
+# параметры uses: elgohr/Publish-Docker-Github-Action@v4
         with:
           registry: docker.pkg.github.com
 # репозиторий/мое имя на гитхабе/репозиторий проекта/название пакета, которй формируется внутри
